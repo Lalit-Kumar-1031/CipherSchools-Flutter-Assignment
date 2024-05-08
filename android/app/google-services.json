@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "856216567897",
+    "firebase_url": "https://fir-2307c-default-rtdb.firebaseio.com",
+    "project_id": "fir-2307c",
+    "storage_bucket": "fir-2307c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:856216567897:android:4efd5597d84aed69ed7148",
+        "android_client_info": {
+          "package_name": "com.example.expense_tracking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "856216567897-ca22vo9jbf8scrocunjbsqkdvot15v7r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.expense_tracking",
+            "certificate_hash": "76a0d8f2be04a18907e4a41ba73cddc10ff69f22"
+          }
+        },
+        {
+          "client_id": "856216567897-9ou201a1q4lmamdc36qgdqj5at2e0edu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZVA4qJPfHo1D3Jk1VcBsoUsEcL6UQLCc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "856216567897-9ou201a1q4lmamdc36qgdqj5at2e0edu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "856216567897-bvt0b6qm496qlu7um12dj4o7r28idhl3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.expenseTracking"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:856216567897:android:5b2ae677c2f3aa69ed7148",
+        "android_client_info": {
+          "package_name": "com.example.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "856216567897-pgapc8todqm5kc8ev6m41detd91d9f14.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebase",
+            "certificate_hash": "129a010f71bd8e62ce80bb7629e51973741da764"
+          }
+        },
+        {
+          "client_id": "856216567897-9ou201a1q4lmamdc36qgdqj5at2e0edu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZVA4qJPfHo1D3Jk1VcBsoUsEcL6UQLCc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "856216567897-9ou201a1q4lmamdc36qgdqj5at2e0edu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "856216567897-bvt0b6qm496qlu7um12dj4o7r28idhl3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.expenseTracking"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
