@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:hive/hive.dart';
 import 'package:uuid/uuid.dart';
 import 'package:expense_tracking/Screens/hive_service.dart';
 import 'package:expense_tracking/transaction.dart';

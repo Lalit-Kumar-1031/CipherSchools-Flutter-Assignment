@@ -7,14 +7,11 @@ class GoogleAuth {
 
  Future<User?> authenticate() async {
   try {
-   // Attempt to get the currently authenticated user
    final GoogleSignInAccount? googleUser = await _googleSignIn.signIn();
 
    if (googleUser != null) {
-    // Obtain the auth details from the request
     final GoogleSignInAuthentication googleAuth = await googleUser.authentication;
 
-    // Create a new credential
     final OAuthCredential credential = GoogleAuthProvider.credential(
      accessToken: googleAuth.accessToken,
      idToken: googleAuth.idToken,

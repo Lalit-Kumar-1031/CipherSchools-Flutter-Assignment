@@ -2,7 +2,6 @@ import 'package:expense_tracking/Screens/HomeScreen.dart';
 import 'package:expense_tracking/googleAuth.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
