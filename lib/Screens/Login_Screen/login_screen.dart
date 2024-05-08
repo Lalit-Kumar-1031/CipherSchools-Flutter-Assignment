@@ -28,7 +28,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       msg: "Authentication Failed, Please try again.");
                 } else {
                   Fluttertoast.showToast(msg: "Google Sign up Success full");
-                  Navigator.push(
+                  Navigator.pushReplacement(
                       context,
                       MaterialPageRoute(
                         builder: (context) => HomeScreen(),

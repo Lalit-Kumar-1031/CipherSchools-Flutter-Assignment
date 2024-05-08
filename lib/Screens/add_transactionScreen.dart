@@ -26,8 +26,6 @@ class _AddTransactionScreenState extends State<AddTransactionScreen> {
   final GlobalKey<FormState> formKey = GlobalKey<FormState>();
 
   void _addTransaction() {
-    loading=true;
-    setState(() {});
 
     if (formKey.currentState!.validate()) {
       final double amount = double.tryParse(_amountController.text) ?? 0.0;
@@ -60,10 +58,6 @@ class _AddTransactionScreenState extends State<AddTransactionScreen> {
       HiveService.box.add(newTransaction);
       Navigator.of(context).pop();
     }
-    loading=false;
-    setState(() {
-
-    });
   }
 
   void _showErrorDialog(String message) {

@@ -33,7 +33,7 @@ class HomeScreen extends StatelessWidget {
                         builder: (context) => LoginScreen(),
                       ));
 
-                  Fluttertoast.showToast(msg: "Logout Success ful ");
+                  Fluttertoast.showToast(msg: "Logout Success full ");
 
                 } catch (e) {
                   Fluttertoast.showToast(msg: e.toString());
